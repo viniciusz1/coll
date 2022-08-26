@@ -33,6 +33,7 @@ public class Pessoa implements Comparable{
 
     @Override
     public int compareTo(Object o) {
-        return this.idade - o.idade;
+        Pessoa outra = (Pessoa) o;
+        return this.idade - outra.idade;
     }
 }
