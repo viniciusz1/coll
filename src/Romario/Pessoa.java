@@ -1,4 +1,4 @@
-import java.util.Objects;
+package Romario;
 
 public class Pessoa implements Comparable{
 

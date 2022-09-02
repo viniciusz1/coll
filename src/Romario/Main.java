@@ -1,3 +1,5 @@
+package Romario;
+
 import java.util.*;
 
 public class Main {
@@ -14,7 +16,13 @@ public class Main {
         Collections.addAll(pessoaSet,pessoa1,pessoa2,pessoa3,pessoa4,pessoa5,pessoa6,pessoa7, pessoa5);
         pessoaSet.add(pessoa1);
         pessoaSet.add(pessoa5);
-        System.out.println(pessoaSet);
+
+
+        Iterator<Pessoa> iterator = pessoaSet.iterator();
+        while (iterator.hasNext()){
+
+            System.out.println(iterator.next());
+        }
     }
 }
 
